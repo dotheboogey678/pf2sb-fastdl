@@ -2,7 +2,7 @@
 modlist=(tf2classic pf2)
 merges=(music)
 
-build_dir="build"
+build_dir="docs"
 
 rm -rf $build_dir
 mkdir $build_dir
