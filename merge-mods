@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+modlist=(tf2classic pf2)
+merges=(music)
+
+build_dir="build"
+
+rm -rf $build_dir
+mkdir $build_dir
+
+for modname in "${modlist[@]}"; do
+    mkdir $build_dir/$modname
+    cp -r $modname/* $build_dir/$modname
+    for merge in "${merges[@]}"; do
+        cp -r $merge/* $build_dir/$modname
+    done
+done
