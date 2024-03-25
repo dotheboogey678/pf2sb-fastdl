@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-modlist=(tf2classic pf2)
+modlist=(pf2)
 merges=(music)
 
 build_dir="docs"
