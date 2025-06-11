@@ -1,4 +1,4 @@
-name: merge-mods
+name: merge-mods-but
 run-name: Merge mods
 on: push
 jobs:
